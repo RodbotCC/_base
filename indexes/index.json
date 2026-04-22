@@ -1,0 +1,48 @@
+{
+  "projects": [
+    "projects/ai_billing_index.json",
+    "projects/andre_sales_command_center.json",
+    "projects/daily_content_journal.json",
+    "projects/human_contact_layer.json",
+    "projects/public_surface_build.json",
+    "projects/rod_chief_of_staff.json",
+    "projects/secretary.json",
+    "projects/sub_agent_fleet.json"
+  ],
+  "people": [
+    "people/andre_raw.json",
+    "people/blair_hallett.json",
+    "people/rodrigo.json"
+  ],
+  "threads": [],
+  "commitments": [
+    "commitments/contact_reality_fast.json",
+    "commitments/daily_relationship_cadence.json",
+    "commitments/physical_maintenance.json",
+    "commitments/public_surface_cadence.json",
+    "commitments/reverse_hermit_mode.json"
+  ],
+  "knowledge": [
+    "knowledge/_OPEN_QUESTIONS.json",
+    "knowledge/andre_raw_sales_command_center_framework_instantiated.json",
+    "knowledge/crm_property_stack_and_kpis.json",
+    "knowledge/engine_buyer_mapping.json",
+    "knowledge/engine_frame_control.json",
+    "knowledge/engine_intel_calibration.json",
+    "knowledge/engine_motion_control.json",
+    "knowledge/engine_tribal_alignment.json",
+    "knowledge/sales_compression_bank.json",
+    "knowledge/secretary_spec_ai_billing_ledger.json",
+    "knowledge/secretary_spec_contact_layer.json",
+    "knowledge/secretary_spec_daily_content_journal.json",
+    "knowledge/secretary_spec_ratio_lattice_ledger_stub.json",
+    "knowledge/secretary_spec_streak_tracker.json",
+    "knowledge/secretary_spec_sub_agent_fleet.json",
+    "knowledge/secretary_spec_temporal_continuity_ledger.json"
+  ],
+  "base": [
+    "_base/humor_palette.md",
+    "_base/four_core_principles.md",
+    "_base/operational_vocabulary.md"
+  ]
+}

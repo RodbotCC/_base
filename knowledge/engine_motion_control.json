@@ -1,0 +1,10 @@
+{
+  "id": "engine_motion_control",
+  "title": "Engine 1: Motion Control — Deals Die in Hesitation",
+  "tags": ["sales", "engine", "define_step", "pipeline_velocity", "signal_to_action_lag"],
+  "source_md": "knowledge/engine_motion_control.md",
+  "status": "drafted",
+  "related_projects": ["buyer_vector_method", "andre_sales_command_center"],
+  "related_knowledge": ["buyer_vector_method_umbrella", "buyer_vector_method_source", "fourfold_exit_map_what_happens_at_delta_limit", "sore_thumb_variables_and_terminal_disbelief_band"],
+  "summary": "Pipeline velocity engine. Deals don't die from bad scripts — they die from decision latency. Motion Control is the discipline that produces typed next-moves (yes/no/not-yet/named-objection) rather than vague momentum. Twin of typed abstention: abstention refuses to commit when the band is empty; motion control refuses to stall when the band is loaded. One-liner: 'The deal died in the hesitation, not in the objection.'"
+}

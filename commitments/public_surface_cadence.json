@@ -1,0 +1,20 @@
+{
+  "id": "public_surface_cadence",
+  "label": "Build and maintain the public surfaces for the work — Twitter, community, LinkedIn, YouTube",
+  "to": "the public / future collaborators / future partners",
+  "due": null,
+  "why": "The framework is not fully alive until it has a public surface. Right now everything is brilliant and invisible. The public surface is what turns invisible work into compounding work. This is a cadence commitment — ship on the surfaces in order, not all at once.",
+  "status": "active",
+  "related_projects": ["public_surface_build", "daily_content_journal"],
+  "related_anchors": ["public_surface_development", "journal_entry_today"],
+  "operational_shape": {
+    "build_order": [
+      "Twitter — resurrect the dormant 1,400-follower account. Lowest friction, fastest win.",
+      "Community scouting — find where big-ideas builders who are actually shipping congregate. Discords / subreddits / founder forums / research-adjacent. Currently 'needs scouting' — not decided.",
+      "LinkedIn — build before the partnership gets serious, not after. Essentially zero presence today.",
+      "YouTube — build from zero. Highest bandwidth for showing what Mission Control / Secretary / the framework actually does. Do it once the other three are flowing."
+    ],
+    "feed_loop": "daily_content_journal is the reservoir. Entries get pulled by platform_intent tag when a surface is ready to publish."
+  },
+  "notes": "Declared 2026-04-22 in Jake's scope riff. Comparator hint: public_surface_development. Medium weight (0.65) — important but should not outrank core build work on any given day."
+}

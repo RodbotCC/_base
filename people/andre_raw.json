@@ -1,0 +1,14 @@
+{
+  "id": "andre_raw",
+  "name": "Andre Raw",
+  "role": "Sales rep at Comeketo Catering; primary user of the Andre Sales Command Center. The user whose daily experience proves the product.",
+  "last_contact": null,
+  "owed_response": false,
+  "relationship_weight": 0.85,
+  "cadence": "daily",
+  "notes": "Andre is the human on the execution side of the framework-instantiated sales system. System outputs are proposals-with-receipts, not commands — Andre keeps final human approval. Command Center surfaces sore-thumb-variable algebra to him; he either signs off or sends back for refinement. Proto-alignment framing: framework primitives are available to Andre as tools, not forced as constraint. Cadence=daily (afternoon text anchor). Relationship weight bumped from 0.8 to 0.85 per batch 2 framing — user-whose-daily-experience-proves-the-product. Jake to populate last_contact once TCL starts logging exchanges.",
+  "related_projects": ["andre_sales_command_center", "buyer_vector_method"],
+  "related_anchors": ["andre_afternoon_text", "clickup_touched_today", "slack_touched_today"],
+  "related_commitments": ["daily_relationship_cadence"],
+  "related_knowledge": ["andre_raw_sales_command_center_framework_instantiated", "secretary_spec_contact_layer"]
+}

@@ -1,0 +1,19 @@
+{
+  "id": "physical_maintenance",
+  "label": "Daily maintenance of the physical and relational substrate — clean room, laundry, dad",
+  "to": "self + dad",
+  "due": null,
+  "why": "The maintenance tier is where most people's lives quietly decay while they're busy with the Big Important Work. Clean room daily, laundry weekly, something for dad daily — small enough that they don't compete with partnership-level work for attention, declared so that when a week goes by and three of them are broken it shows up as a visible pattern instead of a vague 'I feel off' feeling.",
+  "status": "active",
+  "related_anchors": [
+    "clean_room_today",
+    "laundry_this_week",
+    "something_for_dad_today"
+  ],
+  "operational_shape": {
+    "clean_room_today": "Daily. Small action, compounds into a livable workspace. The anchor is the touch, not the depth of the cleaning.",
+    "laundry_this_week": "Weekly. Missed weeks compound into a real problem fast.",
+    "something_for_dad_today": "Daily, relational. Could be a text, a call, an errand, a small act. The 'something' is deliberately loose — the anchor is the daily touch, not a specific format."
+  },
+  "notes": "Declared 2026-04-22 in Jake's scope riff. Comparator hints: daily_physical_maintenance (room, laundry) and daily_family_fidelity (dad — lives in its own regime, relational not physical, shouldn't be scored against laundry). Weights moderate (0.40–0.55). These are not funny. They're the substrate under everything else."
+}

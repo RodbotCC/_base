@@ -1,0 +1,25 @@
+{
+  "id": "daily_content_journal",
+  "name": "Daily content journal — the reservoir that feeds public surfaces",
+  "status": "active-build",
+  "next_move": "Stand up Journal subsystem at _ledger/journal/ with one file per day (YYYY-MM-DD.md). Each entry: title, body, optional attachments (screenshots, video clips, diagrams) stored alongside. Tags field so entries retrieve by framework area, platform-intent (twitter-thread-candidate / youtube-explainer-candidate / linkedin-post-candidate), and media type. Journal view in Secretary shows entries chronologically with a pull-by-tag filter. Optional: cheap-model reflection pass that auto-suggests tags and which surface an entry belongs on.",
+  "blockers": [
+    "Tag vocabulary — controlled list vs freeform with later reconciliation",
+    "Attachment storage path convention (_ledger/journal/attachments/ vs inline per-day folder)",
+    "Whether the reflection pass runs on write or on-demand"
+  ],
+  "live_band": "Right now every discovery gets mentioned in a chat, lives in a voice note, or disappears into a Codex session. The reservoir pattern captures every discovery at the moment it happens, even if it takes weeks before it gets shaped into a public artifact. Separating capture from publication is what makes the content flywheel work — can't publish what wasn't captured, and capture pressure shouldn't demand publication-readiness. Closes a loop with public_surface_build — journal is what feeds Twitter/YouTube/LinkedIn when those go live.",
+  "tags": ["journal", "content-reservoir", "public-surface-feed", "capture-layer", "secretary-subsystem"],
+  "related_anchors": ["journal_entry_today"],
+  "related_projects": ["public_surface_build"],
+  "related_knowledge": [
+    "secretary_spec_daily_content_journal"
+  ],
+  "v1_scope": {
+    "storage": "_ledger/journal/YYYY-MM-DD.md",
+    "entry_fields": ["title", "body", "attachments", "tags"],
+    "tag_axes": ["framework_area", "platform_intent", "media_type"],
+    "journal_view": "chronological + pull-by-tag"
+  },
+  "notes": "Declared 2026-04-22 in Jake's scope riff. Comparator hint: reservoir_building. Weight 0.80 — the daily cost is low and the compounding value into public-surface work is high. Probably the single most valuable streak in the set."
+}

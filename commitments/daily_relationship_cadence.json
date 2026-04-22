@@ -1,0 +1,29 @@
+{
+  "id": "daily_relationship_cadence",
+  "label": "Maintain daily rhythm with Rodrigo (morning text) and Andre (afternoon text) + daily ClickUp and Slack presence",
+  "to": "Rodrigo + Andre + every channel their actual workflow lives in",
+  "due": null,
+  "why": "Rodrigo is the client relationship that becomes the partnership. Andre is the user whose daily experience proves the product. Both relationships degrade fast if cadence drops and compound fast if it holds. ClickUp and Slack are not just communication tools — they're where the granular reality lives. Daily presence maintains situational awareness so that when a real decision lands, we're operating from current signal, not from what we were told last week. This is a rhythm anchor, not a project anchor — the value is in the cadence itself, not in any single interaction.",
+  "status": "active",
+  "related_projects": ["andre_sales_command_center", "buyer_vector_method"],
+  "related_people": ["rodrigo", "andre_raw"],
+  "related_anchors": [
+    "rodrigo_morning_text",
+    "andre_afternoon_text",
+    "clickup_touched_today",
+    "slack_touched_today"
+  ],
+  "related_knowledge": [
+    "secretary_spec_streak_tracker",
+    "secretary_spec_temporal_continuity_ledger",
+    "engine_tribal_alignment",
+    "energy_dynamics_of_persuasion"
+  ],
+  "operational_shape": {
+    "rodrigo_morning_text": "Daily, morning. Content: build update, AI signal, or anything that keeps status quo warm. Doesn't need to be long.",
+    "andre_afternoon_text": "Daily, afternoon. Same content palette. Timing matters — afternoon hits Andre in the state he's actually working in.",
+    "clickup_daily": "Log in and see what moved. Not 'audit tasks' — just 'stay in tune with workflow.'",
+    "slack_daily": "Same as ClickUp but for the unfiltered signal layer."
+  },
+  "notes": "How to apply: these four anchors are load-bearing AND cheap to honor. Anchor weight (0.85) reflects that missing one is a real signal. The commitment is the why behind the four anchors — if you ever find yourself gaming the anchor by sending a throwaway text just to preserve the streak, that's a violation of the commitment, not a fulfillment of it. Streak tracker should capture break_reason when the cadence drops so we can read it later and understand whether it was context (travel, illness, overwhelm) or drift. Pairs with contact_reality_fast (same underlying physics — heat loss is the hidden KPI)."
+}

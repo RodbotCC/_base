@@ -1,0 +1,24 @@
+{
+  "id": "sub_agent_fleet",
+  "name": "Sub-agent fleet — capability layer beneath Secretary's orchestrator",
+  "status": "active-build",
+  "next_move": "Stand up agents/ directory with one subfolder per sub-agent (each with agents.md declaring jurisdiction, inputs, outputs, failure modes, escalation rules). Ship a registry index and a delegation mechanism that returns typed results or typed abstention. First 3–5 sub-agents that earn their keep immediately: research/enrichment, message-drafting, red-team, voice-audit (enforces the Memory voice model), calendar/scheduling.",
+  "blockers": [
+    "Location of the ~21 specialist sub-agent specs from earlier framework work — need to pull into agents/",
+    "Delegation return type: typed result vs typed abstention (Θ) as first-class output",
+    "Registry format — single JSON index vs per-agent manifests with a discovery pass"
+  ],
+  "live_band": "Secretary right now is an orchestrator alone. Without sub-agents every task is handled at orchestrator-level generality — fine for proposals, too coarse for artisan work (drafting, research, auditing). The fleet is where the framework's jurisdiction contracts become an operational feature rather than a design document. Anchor weight (0.90) is a direction anchor, not a daily-fidelity one.",
+  "tags": ["capability-layer", "delegation", "jurisdiction-contracts", "typed-abstention", "secretary"],
+  "related_anchors": ["sub_agent_fleet_depth"],
+  "related_knowledge": [
+    "secretary_spec_sub_agent_fleet"
+  ],
+  "v1_scope": {
+    "agents_directory": "agents/<name>/agents.md per sub-agent",
+    "registry": "single index the orchestrator reads to know who's available and what they do",
+    "delegation": "orchestrator hands a typed task to a sub-agent; sub-agent returns typed result or typed abstention",
+    "first_cohort": ["research_enrichment", "message_drafting", "red_team", "voice_audit", "calendar_scheduling"]
+  },
+  "notes": "Declared 2026-04-22 in Jake's scope riff. Comparator hint: system_capability_depth. Direction anchor at 0.90 on the building dimension — doesn't need to score against daily moves. Pairs with secretary.json (this is the next-layer buildout)."
+}

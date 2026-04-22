@@ -1,0 +1,14 @@
+{
+  "id": "rodrigo",
+  "name": "Rodrigo",
+  "role": "Reviewer / stakeholder for the Andre Sales Command Center (surfaces in the 'What Rodrigo Should See' explanatory caption). Client relationship that becomes the partnership.",
+  "last_contact": null,
+  "owed_response": false,
+  "relationship_weight": 0.9,
+  "cadence": "daily",
+  "notes": "Presence inferred from the Andre system screenshots: 'single-user (Andre + Rodrigo viewing).' Explanatory caption is written specifically for Rodrigo to understand what the comparator dashboard is doing. Relationship weight bumped from 0.6 to 0.9 per batch 2 (2026-04-22) framing — Rodrigo is the client-to-partnership path, daily morning text anchor declared. Cadence=daily. Jake to populate last_contact once the TCL starts logging exchanges.",
+  "related_projects": ["andre_sales_command_center", "buyer_vector_method"],
+  "related_anchors": ["rodrigo_morning_text", "clickup_touched_today", "slack_touched_today"],
+  "related_commitments": ["daily_relationship_cadence"],
+  "related_knowledge": ["andre_raw_sales_command_center_framework_instantiated", "secretary_spec_contact_layer"]
+}

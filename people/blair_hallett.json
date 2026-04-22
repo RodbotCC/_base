@@ -1,0 +1,21 @@
+{
+  "id": "blair_hallett",
+  "name": "Blair Hallett",
+  "role": "dad",
+  "relationship_weight": 0.95,
+  "last_contact": null,
+  "owed_response": null,
+  "phone": null,
+  "email": null,
+  "address": null,
+  "notes": "contact details pending — paste from chat and re-save",
+  "handling": {
+    "preferred_channel": "sms",
+    "tone": "warm, direct, no performance",
+    "context": "Jake's father; anchor of the daily-dad commitment (something_for_dad_today). The empty chair this anchor has been pointing at.",
+    "voice_adjustments": "more casual register than client-facing work is allowed",
+    "off_limits": []
+  },
+  "related_projects": [],
+  "tags": ["family", "dad", "daily_anchor"]
+}

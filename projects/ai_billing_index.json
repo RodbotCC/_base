@@ -1,0 +1,25 @@
+{
+  "id": "ai_billing_index",
+  "name": "AI billing and subscription index — real-time where possible",
+  "status": "active-build",
+  "next_move": "Stand up _ledger/ai_billing.json with one entry per subscription/API account: provider, plan_name, monthly_cost, renewal_date, token_budget (if applicable), token_used_this_period (if fetchable), notes. Build a small poller for providers that expose usage endpoints (Anthropic usage API, OpenAI usage endpoint) — fetch every few hours and write to the ledger. Manual entry where the provider doesn't expose usage. Add a Billing view (Settings tab or its own) showing at-a-glance status: which accounts are healthy, which are close to limits, which are renewing soon.",
+  "blockers": [
+    "API credentials for usage endpoints (read-only scope)",
+    "Poll cadence — every few hours is probably right; needs a concrete number",
+    "Where Billing view lands in the nav (Settings sub-page vs its own)"
+  ],
+  "live_band": "AI spend is real and scattered across providers. Without a single ledger Jake can't see 'am I about to blow through the Anthropic bucket' or 'which subscription renews Thursday.' Weight is lower (0.40) because the day-to-day fidelity cost is low — but visibility matters because a single blown limit can block work for hours.",
+  "tags": ["billing", "usage-tracking", "subscriptions", "secretary-subsystem"],
+  "related_anchors": ["ai_billing_visibility"],
+  "related_knowledge": [
+    "secretary_spec_ai_billing_ledger"
+  ],
+  "v1_scope": {
+    "ledger_path": "_ledger/ai_billing.json",
+    "per_entry_fields": ["provider", "plan_name", "monthly_cost", "renewal_date", "token_budget", "token_used_this_period", "notes"],
+    "pollers": ["anthropic_usage", "openai_usage"],
+    "manual_providers": "everything without a public usage endpoint",
+    "billing_view": "at-a-glance: healthy / near-limit / renewing-soon"
+  },
+  "notes": "Declared 2026-04-22 in Jake's scope riff. Comparator hint: spend_visibility."
+}

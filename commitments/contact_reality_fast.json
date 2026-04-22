@@ -1,0 +1,15 @@
+{
+  "id": "contact_reality_fast",
+  "label": "Shorten the gap between signal and action — contact reality faster than you imagine optimal outcomes",
+  "to": "self + every message queue, every stalled conversation, every 'waiting for the right moment'",
+  "due": null,
+  "why": "From the Motion Control doctrine: top reps don't know more — they shorten the gap between signal and action. Real answers beat imagined outcomes every time. The scenario engine running in your head is a heat-sink — it consumes attention, generates worry, and produces no actual data. One real reply (even a no) is worth more than an hour of projected responses. Heat loss is the hidden KPI: Undefined Deal Days are just ambient-temperature drift made countable. Warm states don't stay warm on their own. This applies way beyond sales — any message you've been drafting in your head for days is leaking heat while you perfect it.",
+  "status": "active",
+  "related_projects": ["buyer_vector_method", "andre_sales_command_center", "secretary"],
+  "related_knowledge": [
+    "engine_motion_control",
+    "energy_dynamics_of_persuasion",
+    "sore_thumb_variables_and_terminal_disbelief_band"
+  ],
+  "notes": "How to apply: when you catch yourself simulating outcomes, send instead. The information gained from one real reply is categorically different from what the simulation produces. Phantom objections are sore-thumb variables that haven't hit terminal disbelief — you're projecting them forward instead of checking them against reality. The commitment is not to be reckless — still respect typed_abstention_first_class when the live band is genuinely empty — but to recognize that most 'waiting for the right moment' is avoidance with good PR. Rule of thumb: if the imagined version of the response has been running in your head for more than 24 hours, it's heat loss, not diligence."
+}

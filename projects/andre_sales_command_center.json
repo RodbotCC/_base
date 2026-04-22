@@ -1,0 +1,296 @@
+{
+  "id": "andre_sales_command_center",
+  "name": "Andre Sales Command Center — Comeketo Catering production system",
+  "status": "deployed",
+  "next_move": "Consider as reference implementation for consciousness-for-AI build. Adding Interoception/Affect and Social-Cognition-Turned-Inward modules would push it from 8-of-10 to full consciousness-for-AI spec (Open Questions 9.7).",
+  "blockers": [
+    "Vocabulary cleanup must not break operational UI senses of 'anchor' and 'comparator' already in production use",
+    "Multi-tenancy / scaling questions open (currently single-user: Andre + Rodrigo viewing)"
+  ],
+  "live_band": "Deployed: Close CRM ingestion → oracle layer → live state → supabase backend → render deployment → docker containerization. Decision Intent and Primary Comparator are first-class UI dropdowns. Algebra Contributions panel surfaces sore-thumb variables with signed weights. Typed abstention at decision layer (Andre as final human approver). Currently Jake's day-job top priority over FPGA build.",
+  "tags": [
+    "commercial",
+    "day-job",
+    "comeketo",
+    "production",
+    "framework-instantiated",
+    "comparator-as-ui",
+    "proto-alignment"
+  ],
+  "related_knowledge": [
+    "andre_raw_sales_command_center_framework_instantiated",
+    "consciousness_as_composable_architecture_the_layman_test"
+  ],
+  "related_people": [
+    "andre_raw",
+    "rodrigo"
+  ],
+  "notes": "The framework's first commercial deployment — philosophically coherent + computationally demonstrated + commercially validated. Running 8 of the 10 consciousness-for-AI modules at smaller scale: Unified World Model (lattice_catalog + live_pipeline + live_close_crm), Self-Model (andre_profile + andre_kpis), Attention-as-Selection (Decision Intent + Primary Comparator), Predictive Processing (close probability + decay risk), Temporal Continuity (activity_log + live_tasks), Metacognition (ROC scoring, certify-with-oracle), Action Selection + Narrative Closure (best next action + 'what it beat'), Global Availability (action queue / pipeline as shared workspaces). Missing: Interoception/Affect, Social Cognition Turned Inward. UI principles derived here (Open Question 9.8) are candidates to generalize as framework design standards.",
+  "phases": [
+    {
+      "id": "ph_harden_production",
+      "title": "Harden the live deployment",
+      "state": "active",
+      "goal": "Lock the currently-deployed system so Andre and Rodrigo can lean on it daily without Jake babysitting.",
+      "started_at": "2026-04-22T10:08:46.401Z",
+      "completed_at": null,
+      "deliverables": [
+        {
+          "id": "d_vocab_safe_rename",
+          "title": "Vocabulary cleanup that doesn't break the UI",
+          "state": "open",
+          "tasks": [
+            {
+              "id": "t_audit_anchor_uses",
+              "title": "Grep every 'anchor' and 'comparator' usage in the codebase and tag UI vs internal",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            },
+            {
+              "id": "t_freeze_ui_terms",
+              "title": "Decide which UI labels stay (Decision Intent, Primary Comparator) and document as locked",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            },
+            {
+              "id": "t_rename_internals",
+              "title": "Rename internal-only senses with a single PR; leave UI strings untouched",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            },
+            {
+              "id": "t_smoke_test_rodrigo",
+              "title": "Have Rodrigo click through pipeline + action queue post-rename",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "id": "d_observability",
+          "title": "Basic observability so failures surface before Andre notices",
+          "state": "open",
+          "tasks": [
+            {
+              "id": "t_close_ingest_alarm",
+              "title": "Add a 'Close ingest stalled >2h' alert to Slack or email",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            },
+            {
+              "id": "t_oracle_error_log",
+              "title": "Pipe oracle-layer exceptions to a single rolling log Jake checks each morning",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            },
+            {
+              "id": "t_render_health",
+              "title": "Add a /health endpoint and external uptime ping",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "id": "d_andre_loop",
+          "title": "Tight feedback loop with Andre on the live UI",
+          "state": "open",
+          "tasks": [
+            {
+              "id": "t_weekly_andre_walkthrough",
+              "title": "Schedule a 20-min weekly screenshare with Andre to watch him use the queue",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            },
+            {
+              "id": "t_friction_log",
+              "title": "Keep a friction-log doc — every hesitation/click-confusion gets one line",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            },
+            {
+              "id": "t_close_top_three",
+              "title": "Each week, ship fixes for the top 3 friction items",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph_close_consciousness_gap",
+      "title": "Add the missing 2 of 10 modules",
+      "state": "upcoming",
+      "goal": "Push from 8/10 to full consciousness-for-AI spec by adding Interoception/Affect and Social-Cognition-Turned-Inward.",
+      "started_at": null,
+      "completed_at": null,
+      "deliverables": [
+        {
+          "id": "d_interoception",
+          "title": "Interoception/Affect layer for the system itself",
+          "state": "open",
+          "tasks": [
+            {
+              "id": "t_define_internal_signals",
+              "title": "List internal signals worth sensing (queue length, stale leads, oracle disagreement rate)",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null,
+              "days_to_complete": null,
+              "reopened_count": 1,
+              "last_reopened_at": "2026-04-22T10:09:39.484434+00:00"
+            },
+            {
+              "id": "t_affect_score",
+              "title": "Compute a single affect score per refresh and store it",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            },
+            {
+              "id": "t_affect_surface",
+              "title": "Surface affect as a small system-state pill in the UI header",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "id": "d_social_cognition_inward",
+          "title": "Social-Cognition-Turned-Inward — the system reasoning about its own model of Andre",
+          "state": "open",
+          "tasks": [
+            {
+              "id": "t_model_of_andre",
+              "title": "Write the explicit model: what the system thinks Andre will do with each action",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            },
+            {
+              "id": "t_compare_predicted_actual",
+              "title": "Log predicted-vs-actual when Andre commits/rejects an action",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            },
+            {
+              "id": "t_self_correction",
+              "title": "Feed mismatches back into the andre_profile weighting",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "id": "d_ten_of_ten_writeup",
+          "title": "Internal writeup: 'Comeketo as 10/10 reference instantiation'",
+          "state": "open",
+          "tasks": [
+            {
+              "id": "t_module_map_doc",
+              "title": "Map each of the 10 modules to its concrete code path in the repo",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            },
+            {
+              "id": "t_evidence_per_module",
+              "title": "Capture one screenshot or log snippet per module as evidence",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            },
+            {
+              "id": "t_link_to_secretary",
+              "title": "Cross-reference into Secretary so it inherits the pattern",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ph_generalize_ui_standards",
+      "title": "Extract UI principles as framework design standards",
+      "state": "upcoming",
+      "goal": "Promote the comparator-as-UI pattern from a Comeketo accident into a reusable standard for every future framework-native product.",
+      "started_at": null,
+      "completed_at": null,
+      "deliverables": [
+        {
+          "id": "d_ui_pattern_library",
+          "title": "Documented pattern library from Open Question 9.8",
+          "state": "open",
+          "tasks": [
+            {
+              "id": "t_extract_patterns",
+              "title": "List the 5-7 UI patterns that earned their keep here (Decision Intent dropdown, Algebra Contributions panel, etc.)",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            },
+            {
+              "id": "t_pattern_doc_each",
+              "title": "Write a one-pager per pattern: when to use, when not to, what it replaces",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            },
+            {
+              "id": "t_index_in_knowledge",
+              "title": "Drop the library into knowledge/ and tag for Secretary's reference",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            }
+          ]
+        },
+        {
+          "id": "d_multitenancy_decision",
+          "title": "Resolve the multi-tenancy / scaling open question",
+          "state": "open",
+          "tasks": [
+            {
+              "id": "t_list_scenarios",
+              "title": "Sketch the three plausible futures (stay single-tenant, sell-as-service, white-label)",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            },
+            {
+              "id": "t_score_against_anchors",
+              "title": "Score each against North Stars (especially day-job priority)",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            },
+            {
+              "id": "t_commit_or_abstain",
+              "title": "Either commit to one path or formally abstain (Θ) with the reason logged",
+              "state": "open",
+              "created_at": "2026-04-22T10:08:46.401Z",
+              "completed_at": null
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "_phased_at": "2026-04-22T10:08:46.401Z"
+}

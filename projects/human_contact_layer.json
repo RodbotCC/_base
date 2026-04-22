@@ -1,0 +1,24 @@
+{
+  "id": "human_contact_layer",
+  "name": "Human contact layer — rebuild the network, reverse hermit mode",
+  "status": "active-build",
+  "next_move": "Populate people/ with actual entries beyond Rodrigo and Andre — old friends, past collaborators, people worth staying in orbit with. Each entry: name, role, last_contact, owed_response, relationship_weight, cadence (daily/weekly/monthly/dormant-but-keep-warm). Then build a Contacts view that surfaces who's aging out ('haven't talked to X in 6 weeks, weight 0.7, cadence says monthly — drifting'). Once that's live, the morning grid occasionally proposes a reconnection move scored by aging × weight × cadence.",
+  "blockers": [
+    "Initial contact list — Jake needs to dump the names worth including",
+    "Cadence field schema: controlled vocab or freeform",
+    "Aging-out threshold tuning (per-cadence or global)"
+  ],
+  "live_band": "Hermit mode is a specific cost of the AI work and needs a specific countermeasure. Declared as an anchor, it becomes a scoring dimension; undeclared, it stays drift. The grid should occasionally surface a reconnection move the same way it proposes a Rodrigo text. Medium-high weight (0.75) — important enough to score daily, not enough to outrank core-partnership fidelity when windows compete.",
+  "tags": ["contact-layer", "relationship-network", "reverse-hermit", "secretary-subsystem"],
+  "related_anchors": ["reached_out_to_one_person_today", "contacts_maintained_this_week"],
+  "related_commitments": ["reverse_hermit_mode", "contact_reality_fast"],
+  "related_knowledge": [
+    "secretary_spec_contact_layer"
+  ],
+  "v1_scope": {
+    "people_schema": ["name", "role", "last_contact", "owed_response", "relationship_weight", "cadence", "notes"],
+    "contacts_view": "surfaces aging-out contacts with weight × cadence scoring",
+    "grid_integration": "occasionally proposes reconnection moves"
+  },
+  "notes": "Declared 2026-04-22 in Jake's scope riff. Comparator hint: relationship_network_fidelity."
+}

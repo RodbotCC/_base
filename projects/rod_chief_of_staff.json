@@ -1,0 +1,18 @@
+{
+  "id": "rod_chief_of_staff",
+  "name": "Rod — framework-native AI chief-of-staff",
+  "status": "working-demo",
+  "next_move": "Build the quadtree-version of Rod Jake mentioned at end of raw transcript — 'the quadtree mechanism could be way, way more real at learning how to do this over time better.' Likely lands alongside the seven-type-comparison work (Open Questions 5.3).",
+  "blockers": [
+    "Quadtree subdivision trigger conditions still open (Open Questions 5.3)",
+    "Grade+note as feedback standard not yet promoted to design doc (Open Questions 9.10)"
+  ],
+  "live_band": "Three views (Briefing / Proposals / Drafts), two-mouse demo mechanic (human clicks blue bubbles, Rod operates DOM). Explicit division of labor: human = regime-setter + commit-signer + teacher; agent = anticipation-field-assembler + draft-producer + DOM-executor. Every proposal routes through the fourfold exit map (Sign it A / Grade B with refinement / — too thin / Wait). Grade+note teaches Rod which sore-thumb variables carry which weights. 'Why it sounds like you' panel surfaces the sediment Rod has accumulated.",
+  "tags": ["personal-product", "framework-native", "chief-of-staff", "two-mouse-demo", "fourfold-exit-ux", "grade-plus-note"],
+  "related_knowledge": [
+    "rod_chief_of_staff_framework_native_ai_product",
+    "seven_comparison_types_and_the_impossible_eighth",
+    "fourfold_exit_map_what_happens_at_delta_limit"
+  ],
+  "notes": "Jake's biggest idea for what semi-autonomous AI collaboration can look like — 'feels EXCELLENT to use in practice.' Sibling product to Secretary: both framework-native, both enforce typed abstention, both route decisions through the fourfold exit. Rod's design choices (grade+note, four-option response pattern, two-mouse visibility) are candidates for framework-native AI product design standards. The asymmetric-advantage claim: users of this interface operate with visible anchor/comparator discipline that's structurally unavailable to users of conventional AI assistants."
+}

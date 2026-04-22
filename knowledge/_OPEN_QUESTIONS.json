@@ -1,0 +1,8 @@
+{
+  "id": "_OPEN_QUESTIONS",
+  "title": "Open Questions — The Master List",
+  "tags": ["living-document", "open-questions", "meta-infrastructure", "cross-file", "never-finished", "research-agenda"],
+  "source_md": "knowledge/_OPEN_QUESTIONS.md",
+  "status": "living-document",
+  "summary": "The master consolidated list of every unanswered question, unfolded thread, pending structural move across all 34 project files. Meta-rules: never finished, resolved questions move to Closed section, questions clustered by theme not by originating file, cross-references inline. Clusters: (1) Core Pending Technical Content — flow/shear proper, E0-E4 audit stack, dimensionless-ratio reformulation of Delta Limit, circularity response, three blowup-avoidance mechanisms from Navier-Stokes. (2) Vocabulary & Naming — anchor/comparator cleanup, 'stability-symmetry-oneness' rename, sediment vs alternatives, glossary doc. (3) The Two ζ's & measurement questions. Plus many more clusters. 'This is the file to open when stuck — pick any cluster, pick any question, work on it.' Underscore prefix pins it to top of alphabetical directory listing. Collaborative infrastructure any AI instance can update independently."
+}

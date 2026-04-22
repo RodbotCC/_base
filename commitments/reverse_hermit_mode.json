@@ -1,0 +1,22 @@
+{
+  "id": "reverse_hermit_mode",
+  "label": "Reverse hermit mode — the AI work's specific cost gets a specific countermeasure",
+  "to": "self + the network of people worth staying in orbit with beyond Rodrigo and Andre",
+  "due": null,
+  "why": "The AI work pulls Jake into hermit mode. That's a real cost, not a personality quirk. Undeclared, hermit mode stays drift and compounds into isolation. Declared as an anchor regime, it becomes a scoring dimension that fights back. The principle is general: the stuff you don't declare is the stuff that quietly decays while you're busy with the Big Important Work. This commitment is the instance of that principle applied to the relationship network outside the core partnerships.",
+  "status": "active",
+  "related_projects": ["secretary"],
+  "related_anchors": [
+    "reached_out_to_one_person_today",
+    "contacts_maintained_this_week"
+  ],
+  "related_commitments": [
+    "daily_relationship_cadence",
+    "contact_reality_fast"
+  ],
+  "related_knowledge": [
+    "secretary_spec_contact_layer",
+    "energy_dynamics_of_persuasion"
+  ],
+  "notes": "How to apply: when you notice yourself slipping into a week of head-down building with zero outside-the-build contact, that's the signal. The morning grid will propose a reconnection move when the Contacts view surfaces aging-out relationships — take it. Distinguishes from daily_relationship_cadence: that one covers the two core partnerships (Rodrigo/Andre) at daily cadence. This one covers the broader network at weekly-ish cadence. Both are needed because they fail differently — partnership drops collapse a specific deal; network drops collapse a generalized sense of not being alone. Pair with contact_reality_fast — both are disciplines against imaginary-version-of-messages living in your head instead of actual messages reaching actual humans."
+}

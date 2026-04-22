@@ -1,0 +1,47 @@
+{
+  "id": "public_surface_build",
+  "name": "Public Surface Build — turn invisible work into compounding work",
+  "status": "declared — build order set, Twitter is first move",
+  "next_move": "Resurrect Twitter (lowest friction, existing 1,400-follower audience). First concrete step: one post reopening the channel — framework-adjacent, not a cold restart announcement. Use dormant-but-not-dead positioning; act as if the audience is already there (because it is).",
+  "blockers": [
+    "Community scouting unresolved — 'where do people like me congregate' is an explicit open question (big-ideas builders who are actually shipping: Discords? subreddits? indie-founder forums? research-adjacent communities?)",
+    "No LinkedIn presence to speak of — needs build before partnership gets serious, not after",
+    "YouTube production cost not scoped — video is highest-bandwidth but also highest-friction; wait until the other three flow"
+  ],
+  "live_band": "Twitter → community scouting → LinkedIn → YouTube. Twitter is friction-minimum, community scouting is intel-generation, LinkedIn is credibility-infrastructure, YouTube is bandwidth-maximum. Don't reorder — each step's existence de-risks the next. The anchor framing: the framework is not fully alive until it has a public surface. Right now everything is brilliant and invisible. Public surface is what turns invisible work into compounding work.",
+  "surfaces": {
+    "twitter": {
+      "status": "dormant-but-not-dead",
+      "existing_audience": 1400,
+      "priority": 1,
+      "positioning": "fastest win, resurrect not restart",
+      "next_move": "One reopening post that behaves as if the audience is still there. Framework-adjacent, not meta-announcement."
+    },
+    "community_scouting": {
+      "status": "not yet started",
+      "priority": 2,
+      "positioning": "needs scouting — where do builders-who-ship big ideas actually congregate?",
+      "next_move": "Scout Discords, indie-dev/founder forums, research-adjacent communities, specific subreddits. Produce a ranked short-list — don't join everything, pick 2-3.",
+      "open_question": "Captured in _OPEN_QUESTIONS.md"
+    },
+    "linkedin": {
+      "status": "essentially zero presence",
+      "priority": 3,
+      "positioning": "credibility infrastructure — needs to exist before the partnership play escalates",
+      "next_move": "Profile populate pass first — before any content. Get the surface credible, then post onto it."
+    },
+    "youtube": {
+      "status": "zero — cold build",
+      "priority": 4,
+      "positioning": "highest-bandwidth channel for showing what Mission Control / Secretary / the framework actually does; highest production cost",
+      "next_move": "Wait until Twitter + community + LinkedIn are flowing. Don't front-load production cost."
+    }
+  },
+  "tags": ["public-surface", "positioning", "compounding", "framework-visibility", "direction-anchor"],
+  "related_anchors": ["public_surface_development"],
+  "related_knowledge": [
+    "framework_as_asymmetric_advantage_psycho_cybernetics_connection",
+    "buyer_vector_method_umbrella"
+  ],
+  "notes": "Build order is load-bearing. Twitter first not because it's the most important but because it's the lowest-friction move with the highest immediate yield — 1,400 followers is latent heat. LinkedIn before partnership escalates is a timing constraint, not a preference. YouTube last is about sequencing production investment. The whole project is rhythm-shaped: public surfaces don't earn compounding through a single launch, they earn it through sustained presence. Anchor weight is medium (0.65) deliberately — this shouldn't outrank the core build work on any given day."
+}

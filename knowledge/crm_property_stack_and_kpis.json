@@ -1,0 +1,10 @@
+{
+  "id": "crm_property_stack_and_kpis",
+  "title": "CRM Property Stack + KPI Stack — Operational Translation",
+  "tags": ["sales", "crm", "kpi", "operational", "andre_integration_candidate", "instrumentation"],
+  "source_md": "knowledge/crm_property_stack_and_kpis.md",
+  "status": "drafted",
+  "related_projects": ["buyer_vector_method", "andre_sales_command_center"],
+  "related_knowledge": ["buyer_vector_method_umbrella", "buyer_vector_method_source", "andre_raw_sales_command_center_framework_instantiated", "engine_buyer_mapping", "engine_intel_calibration", "engine_tribal_alignment", "engine_frame_control", "engine_motion_control"],
+  "summary": "The CRM data model the five-step method needs: discovery fields (buyer vector components), trust fields (burned-by pattern, shared standard), objection fields (comparison set, frame clarified yes/no), close fields (next committed action, signal-to-action lag). Plus ten KPIs that operationalize all five engines — Ask Execution Rate, Signal-to-Action Lag, Frame Clarification Rate, Standard Alignment Capture Rate, Discovery Resolution Score, Proposal Match Score, Stakeholder Activation Rate, Undefined Deal Days, Discount-Before-Diagnosis Rate, Trust-Speed Score. Candidate next-module specification for Andre Sales Command Center."
+}
