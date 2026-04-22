@@ -1,0 +1,8 @@
+{
+  "id": "rod_chief_of_staff_framework_native_ai_product",
+  "title": "Rod — The Framework as AI Product Architecture",
+  "tags": ["operational", "product", "rod", "chief-of-staff", "two-mouse-demo", "framework-native", "briefing-proposals-drafts", "grade-and-note", "quadtree-hint"],
+  "source_md": "knowledge/rod_chief_of_staff_framework_native_ai_product.md",
+  "status": "biggest-idea-semi-autonomous",
+  "summary": "Jake's biggest idea for semi-autonomous AI collaboration. Rod = AI chief-of-staff, three views (Briefing, Proposals, Drafts). Two-mouse demo mechanic: Jake only clicks blue bubbles (typed decision options); Rod operates the DOM independently, executing chosen actions. Visible ontological claim: human = regime-setter + commit-signer; agent = execution-substrate operating inside the regime. Every Rod proposal IS a Δ-bit presented for human resolution (A=recommended action, B=alternative, A_Λ/B_Λ=anticipation fields, ζ=uncertainty surfaced as grade options, Φ=resolution cost, E_Δ=tension resolved by grading). Four typed proposal sections: Title, Rod's Reasoning, The Plan, Why This Not Something Else (receipts discipline at the proposal layer). Grade (A+,A,B,C,D,F) + Note = sore-thumb-variable teaching mechanism. 'Why it sounds like you' panel surfaces voice sore-thumbs. Jake references quadtree mechanism in a next-version iteration — this Mission Control / Secretary is that next version."
+}

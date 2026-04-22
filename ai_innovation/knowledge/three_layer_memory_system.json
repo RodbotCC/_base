@@ -1,0 +1,8 @@
+{
+  "id": "three_layer_memory_system",
+  "title": "Three-Layer Memory System — Jake's working convention for persistence",
+  "tags": ["operational", "working-convention", "memory-system", "temporal-continuity", "raw-vs-polished", "procedure"],
+  "source_md": "knowledge/three_layer_memory_system.md",
+  "status": "active-convention",
+  "summary": "Jake's convention for how he wants collaborative memory to work. Three layers: (1) Claude's memory system (persistent, lossy, vibe), (2) project files (durable within a project), (3) Jake's local filesystem (ground truth, OS-timestamped, inspectable, portable). Local filesystem is the anchor. Each insight is saved as its own .md file with a descriptive slug (no dates — OS tracks). Every file has TWO sections: Raw (Jake's stream-of-thought, verbatim) and Polished (Claude's refinement). Neither is canonical; both get preserved as corpus. Self-reference note: the method itself previews the thesis (nothing finalized, only iterated). This IS how the infinity_problem directory is structured."
+}
